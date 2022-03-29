@@ -1,0 +1,63 @@
+مخرج
+السؤال 15/30 _ _
+
+الوقت 2:00
+ضع في اعتبارك لقطة الشاشة والترميز التاليين:
+
+<div id="foo">
+  <span id="hello">Hello</span>
+  <span id="world">World</span>
+</div>
+
+<style>
+  #foo {
+    border: 5px solid blue;
+    width: 150px;
+  }
+</style>
+أي من مقتطفات CSS الإضافية التالية ستجعلها تبدو مثل لقطة الشاشة أعلاه؟
+حدد الخيار الأفضل:
+ا .
+#hello {
+  float: left;
+}
+#world {
+  float: right;
+}
+ب .
+#foo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ج .
+#hello {
+  text-align: left;
+}
+#world {
+  text-align: right;
+}
+د .
+#foo {
+  position: absolute;
+}
+#hello {
+  display: block;
+  left: 0;
+}
+#world {
+  display: block;
+  right: 0;
+}
+ه .
+#foo {
+  position: absolute;
+}
+#hello {
+  display: inline-block;
+  left: 0;
+}
+#world {
+  display: inline-block;
+  right: 0;
+}
